@@ -13,6 +13,7 @@ body {
   padding: auto;
   width: 75%;
 }
+
 .Mods {
   margin: 10px;
   width: 33%;
@@ -35,6 +36,7 @@ button {
   font-size: 15px;
   font-style: oblique;
 }
+
 .autores {
   border-radius: 100px;
   border: solid 1px #efefef;
@@ -45,7 +47,11 @@ button {
 .textauthor {
   color: white;
 }
-
+#name {
+  color: white;
+  font-size: large;
+  font-style: italic;
+}
 .doc {
   color: white;
   display: block;
