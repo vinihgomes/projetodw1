@@ -1,0 +1,56 @@
+body {
+  background-image: url('/Form/img/bgpartyinrio.jpg');
+  align-items: block;
+  text-align: center;
+  position: absolute;
+  width: 99%;
+  min-width: 1200px;
+  display: block;
+}
+#Authors {
+  display: flex;
+  margin: auto;
+  padding: auto;
+  width: 75%;
+}
+.Mods {
+  margin: 10px;
+  width: 33%;
+  display: block;
+  border: 3px solid grey;
+  border-radius: 10px;
+}
+.box {
+  color: white;
+  text-emphasis: emphasis;
+}
+button {
+  color: white;
+  border-radius: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #8bd109;
+  margin: auto;
+  width: 40%;
+  height: auto;
+  font-size: 15px;
+  font-style: oblique;
+}
+.autores {
+  border-radius: 100px;
+  border: solid 1px #efefef;
+  height: 100px;
+  width: 100px;
+  margin: 15px;
+}
+.textauthor {
+  color: white;
+}
+
+.doc {
+  color: white;
+  display: block;
+  border: 3px solid white;
+  width: 73.6%;
+  border-radius: 10px;
+  margin: auto;
+}

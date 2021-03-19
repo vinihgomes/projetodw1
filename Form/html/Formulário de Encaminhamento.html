@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Formulário de resposta gravadora</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+  </head>
+  <body>
+    <header>
+      <img src="../img/musikcity_azulbranco.png" alt="Logo MusikCity" />
+    </header>
+    <h1>Formulário de Encaminhamento</h1>
+    <p>ATENÇÃO: NÃO ENVIE FORMULÁRIO PARA VENDER MÚSICA OU SE É MENOR.</p>
+    <p>
+      Se seu trabalho é
+      <a
+        href="https://musikcity.mus.br/atalho/preform_divulgacaogospel2.html"
+        title="formulário secular"
+        target="_top"
+        >GOSPEL</a
+      >
+      ou
+      <a
+        href="https://musikcity.mus.br/atalho/preform_catolico.html"
+        title="formulario católico"
+        target="_top"
+        >CATÓLICO</a
+      >
+      clique nos links.
+    </p>
+    <form action="../asp/respform.asp" method="POST">
+      <div id="fform">
+        <div>
+          <label for="nome">Seu nome completo</label>
+          <input
+            type="text"
+            id="nome"
+            placeholder="Informe seu nome aqui"
+            required
+          />
+        </div>
+        <div>
+          <label for="cidade">Nome da sua cidade e estado</label>
+          <input
+            type="text"
+            id="cidade"
+            placeholder="Informe sua cidade aqui"
+            required
+          />
+        </div>
+        <div>
+          <label for="artistico">Nome artístico (se houver)</label>
+          <input
+            tupe="text"
+            id="artistico"
+            placeholder="Informe seu nome artístico"
+          />
+        </div>
+
+        <div>
+          <label for="idade">Informe sua idade</label>
+          <input
+            type="number"
+            id="idade"
+            placeholder="Informe sua idade"
+            required
+          />
+        </div>
+        <div>
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Informe seu e-mail"
+            required
+          />
+        </div>
+        <div>
+          <label for="ritmo">Qual o estilo (ritmo) das suas músicas?</label>
+          <input
+            type="text"
+            id="ritmo"
+            placeholder="Ex: Variado, rock, MPB, Sertanejo..."
+            required
+          />
+        </div>
+
+        <div>
+          <label for="sendmethod"
+            >Por gentileza, diga seu meio de envio do formulário:</label
+          >
+          <select name="sendmethod" id="sendmethod">
+            <option value="cel">Celular</option>
+            <option value="tablet">Tablet</option>
+            <option value="PC">PC</option>
+            <option value="notebook">Notebook</option>
+          </select>
+        </div>
+      </div>
+      <div id="important">
+        <h3>IMPORTANTE:</h3>
+        <ol>
+          <li>
+            O artista ou autor concorda em pagar 20% do que vier a receber das
+            gravadoras, Ecad e editoras nos 2 primeiros anos se o maestro Hugo
+            Bellard conseguir algum contrato ou adiantamento?
+          </li>
+          <li>
+            Você só pagará a divulgação se o maestro selecionar o seu material.
+            São 3 escolhidos por bimestre.
+          </li>
+          <li>
+            Não há intermediários: MusikCity não é empresa. É o site do maestro.
+          </li>
+        </ol>
+        <p>
+          <b>Caso esteja de acordo com tudo, marque uma das 3 opções abaixo.</b>
+        </p>
+      </div>
+      <div id="atention">
+        <p id="note">
+          ATENÇÃO: se Você é amador, iniciante ou profissional e quer apenas
+          falar por telefone com o maestro e produtor Hugo Bellard para ele
+          opinar sobre músicas completas prontas, encomende CONSULTORIA MUSICAL
+          <a
+            href="https://musikcity.mus.br/atalho/preform_consultoria.html"
+            title="consultoria musical"
+            target="_top"
+            >CLICANDO AQUI.</a
+          >
+        </p>
+
+        <p>DESCONTOS DADO PELO MAESTRO POR ALGUNS DIAS - APROVEITE!</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="../img/opcao1.png" alt="" />
+          <h4>OPÇÃO 1 - básica</h4>
+          <input type="radio" id="opc" name="opcao" value="opcao1" checked />
+          <label for="opcao1"></label><br />
+          <p>
+            de R$ 1.980 por R$ 1.390,00 à vista (se for um dos 3 escolhidos).
+          </p>
+
+          <p>
+            Pagamento direto ao maestro sem intermediários (se escolhido).
+            Recomendação de contratação indicada pelo maestro utilizando 60 EPS
+            ou 60 CDS com os arquivos de música. Vai para os 60 principais
+            produtores que escolhem músicas para os cantores e bandas, diretores
+            de gravadoras como Warner, Sony Music, Onda, Universal Music, Som
+            Livre, Deckdisc, e outras, selos, editoras (pagam adiantamento),
+            produção de programas de TV, e 1 produtor musical das novelas.
+          </p>
+          <p>DURAÇÃO DO ENCAMINHAMENTO: 45 dias.</p>
+          <p>
+            PRAZO QUE FICA NO SITE: 1 ano no mínimo, com elogios do maestro (se
+            escolhido), foto, história de sua vida e música tocando.
+          </p>
+          <p>
+            OBS: Caso não tenha os 60 Cds ou Eps com suas músicas, o maestro
+            pode mandar fazer no Rio a R$4,00 cada.
+          </p>
+          <p>
+            ***PODE SER GRAVAÇÃO DEMO! de R$ 1.980 por R$ 1.390,00 à vista (se
+            for um dos 3 escolhidos).
+          </p>
+        </div>
+        <div class="column">
+          <img src="../img/opcao2.png" alt="" />
+          <h4>OPÇÃO 2 - reforçada</h4>
+          <input type="radio" id="opc" name="opcao" value="opcao2" />
+          <label for="opcao2"></label><br />
+          <p>
+            de R$ 1.980 por R$ 1.390,00 à vista (se for um dos 3 escolhidos).
+          </p>
+
+          <p>
+            Pagamento direto ao maestro sem intermediários (se escolhido).
+            Encaminhamento pelo maestro de 80 EPS ou 80 CDS ou arquivos de
+            música. Vai para 80 dos principais produtores que escolhem músicas
+            para os cantores e bandas, mais diretores de gravadoras como Warner,
+            Sony Music, Onda, Universal Music, Som Livre, Deckdisc, e outras,
+            mais selos, mais editoras (pagam adiantamento), produção de
+            programas de TV, e 3 produtores das novelas da Globo.
+          </p>
+
+          <p>DURAÇÃO DO ENCAMINHAMENTO: 50 dias.</p>
+
+          <p>
+            PRAZO QUE FICA NO SITE: 1 ano e 3 meses no mínimo, com elogios do
+            maestro (se escolhido), foto, história de sua vida e música tocando.
+          </p>
+
+          <p>
+            OBS: Caso não tenha os 80 Cds ou Eps com suas músicas, o maestro
+            pode mandar fazer no Rio a R$4,00 cada.
+          </p>
+
+          <p>
+            ***PODE SER GRAVAÇÃO DEMO! de R$ 2.380,00 por R$1.690,00 à vista (se
+            for um dos 3 escolhidos).
+          </p>
+        </div>
+        <div class="column">
+          <img src="../img/opcao3.png" alt="" />
+          <h4>OPÇÃO 3 - super reforçada</h4>
+          <input type="radio" id="opc" name="opcao" value="opcao3" />
+          <label for="opcao3"></label><br />
+          <p>
+            de R$ 2.780,00 por R$ 1.980,00 à vista (se for um dos 3 escolhidos).
+          </p>
+          <p>
+            Pagamento direto ao maestro sem intermediários (se escolhido).
+            Encaminhamento pelo maestro de 100 EPS ou 100 CDS ou arquivos de
+            música. Vai para MULTISHOW e outros programas musicais de TV, para
+            100 produtores que escolhem músicas para os cantores e bandas,
+            número maior de diretores de gravadoras como Warner, Sony Music,
+            Onda, Universal Music, Som Livre, Deckdisc, e outras, selos,
+            editoras (pagam adiantamento), diversos produtores das novelas da
+            Globo e Record, produção de programas de TV, e mais pessoas do meio
+            musical nacional e internacional. comparar opções
+          </p>
+          <p>DURAÇÃO DO ENCAMINHAMENTO: 70 dias.</p>
+
+          <p>
+            PRAZO QUE FICA NO SITE: 1 ano e meio no mínimo, com elogios do
+            maestro (se escolhido), foto, história de sua vida e música tocando.
+          </p>
+
+          <p>
+            OBS: Caso não tenha os 100 Cds ou Eps com suas músicas, o maestro
+            pode mandar fazer no Rio a R$4,00 cada.
+          </p>
+
+          <p>
+            ***PODE SER GRAVAÇÃO DEMO! de R$ 2.780,00 por R$ 1.980,00 à vista
+            (se for um dos 3 escolhidos).
+          </p>
+        </div>
+      </div>
+      <div class="fnd">
+        <label for="areadetexto" id="textsecform">
+          Explique rapidamente no campo obrigatório abaixo sobre seu trabalho
+          musical.</label
+        >
+        <textarea
+          name=""
+          id="txt"
+          cols="70"
+          rows="7"
+          placeholder="Exemplo: Se é compositor, cantor, estilo, letrista, banda, amador, profissional, algum detalhe. Não cole textos de sites."
+          required
+        ></textarea>
+      </div>
+      <div class="fnd">
+        <label for="areadetexto" id="textsecform">
+          O que você tem para participar?
+        </label>
+        <textarea
+          name=""
+          id="txt"
+          cols="70"
+          rows="7"
+          placeholder="Exemplo:
+
+          trabalho já lançado por gravadora de nome
+          música somente lançada em plataformas ou youtube
+          arquivo de audio gravado em estúdio
+          arquivo de áudio caseiro
+          cd pronto
+          Ep
+          arquivo de voz e violão
+          etc."
+          required
+        ></textarea>
+      </div>
+      <div>
+        <h4 style="color: yellow">FINALIZANDO</h4>
+        <p>
+          Pode ser cd com arranjos completos, arquivos de música ou demo caseiro
+          sem ruídos. O importante são as músicas e conteúdo musical ou
+          comercial. Uma gravadora, produtor ou cantor, se gostar, arca com os
+          custos de finalizar ou produzir tudo. Só paga a divulgação quem for
+          escolhido na próxima seleção que será realizada na próxima semana. Se
+          você não tiver os Cds ou Eps, poderemos mandar fazer opcionalmente no
+          Rio de Janeiro ao custo de R$4,00 cada.
+        </p>
+        <p>Não envie o formulário se:</p>
+        <ol>
+          <li>não pode arcar com o valor das despesas que escolheu.</li>
+          <li>só quer mostrar e ver opinião</li>
+          <li>se vai fazer propostas</li>
+          <li>se não confia</li>
+          <li>se quer vender músicas ou letras</li>
+          <li>SE É MENOR</li>
+        </ol>
+        <p>Gratos</p>
+      </div>
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>
