@@ -13,7 +13,11 @@ body {
   padding: auto;
   width: 75%;
 }
-
+.name {
+  color: white;
+  font-size: large;
+  font-style: italic;
+}
 .Mods {
   margin: 10px;
   width: 33%;
@@ -47,11 +51,7 @@ button {
 .textauthor {
   color: white;
 }
-.name {
-  color: white;
-  font-size: large;
-  font-style: italic;
-}
+
 .doc {
   color: white;
   display: block;
